@@ -1,0 +1,18 @@
+<h1>Show User</h1>
+
+<ul>
+
+  <li>
+    <strong>Email:</strong>
+    <%= @user.email %>
+  </li>
+
+  <li>
+    <strong>Password hash:</strong>
+    <%= @user.password_hash %>
+  </li>
+
+</ul>
+
+<%= link "Edit", to: Routes.user_path(@conn, :edit) %>
+
