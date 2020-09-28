@@ -1,3 +1,5 @@
+# IMPORTANT: This tutorial is still "viable" but I would strongly suggest usage of [this](https://hexdocs.pm/phx_gen_auth/overview.html) instead
+
 # Tutorial
 
 To start your Phoenix server:
